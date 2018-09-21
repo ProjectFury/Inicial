@@ -1,8 +1,7 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+    ini_set('displat_errors','On');
+    define('TITLE', "My first app");
+    define('AUTOR', "Joshua Moreno");
+    include 'lib/head.php';
+    include 'lib/body.php';
+    include 'lib/footer.php';
